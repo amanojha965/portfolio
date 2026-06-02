@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO   -->
+  <meta name="description"
+    content="Aman Ojha is a Full Stack Developer, Video Editor, and ML Engineer skilled in MERN stack, backend development, real-time applications, and machine learning projects." />
+
+  <meta name="keywords"
+    content="Aman Ojha, Full Stack Developer, MERN Stack Developer, Backend Developer, ML Engineer, Video Editor, Portfolio" />
+
+  <meta name="author" content="Aman Ojha" />
+
+  <meta name="robots" content="index, follow" />
+
+  <link rel="canonical" href="https://your-domain.com/" />
+
+
+  <meta property="og:title" content="Aman Ojha | Full Stack Developer Portfolio" />
+  <meta property="og:description"
+    content="Portfolio of Aman Ojha - Full Stack Developer, Video Editor, and ML Engineer." />
+  <meta property="og:image" content="https://your-domain.com/assets/profile-pic.jpg" />
+  <meta property="og:url" content="https://your-domain.com/" />
+  <meta property="og:type" content="website" />
+
+
+  <!-- SEO   -->
+  <title>Aman Ojha | Full Stack Developer</title>
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+  <link rel="icon" type="image/svg+xml" href="./assets/favicon.svg?v=2" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">
+      <img src="./assets/logo.jpg" alt="Aman Ojha logo" class="logo-img" />
+      <span>Aman Ojha</span>
+    </div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#leadership">Leadership</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <nav id="hamburger-nav">
+    <div class="logo">Aman Ojha</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#leadership" onclick="toggleMenu()">Leadership</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-pic.jpg" alt="Aman Ojha profile picture" />
+    </div>
+
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Aman Ojha</h1>
+      <p class="section__text__p2">Full Stack Developer | Video Editor | ML Engineer </p>
+
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/Aman_resume.pdf')">
+          Download CV
+        </button>
+
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="Aman Ojha LinkedIn profile" class="icon"
+          onclick="window.open('https://www.linkedin.com/in/aman-ojha-39688b253', '_blank')" />
+
+        <img src="./assets/github.png" alt="Aman Ojha GitHub profile" class="icon"
+          onclick="window.open('https://github.com/amanojha965', '_blank')" />
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+
+    <div class="section-container">
+      <div class="section__picc-container">
+        <img src="./assets/about2.png" alt="Aman Ojha about picture" class="about-pic" />
+      </div>
+
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>
+              Freelance Web Developer<br />
+              Freelance Video Editor<br />
+              Operations Assistant
+            </p>
+          </div>
+
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>
+              B.Tech CSE<br />
+              GLA University, Mathura<br />
+              Expected 2027
+            </p>
+          </div>
+        </div>
+
+        <div class="text-container">
+          <p>
+            Hi, I’m <strong>Aman Ojha</strong>, a <strong>Computer Science Engineering student</strong>
+            focused on <strong>Full Stack Development</strong>, <strong>real-time web applications</strong>,
+            and <strong>machine learning projects</strong>. I build responsive frontend interfaces,
+            backend APIs, database-driven applications, and practical web solutions using technologies like
+            <strong>React.js</strong>, <strong>Node.js</strong>, <strong>Express.js</strong>,
+            <strong>MongoDB</strong>, <strong>REST APIs</strong>, <strong>WebSockets</strong>,
+            and <strong>Socket.io</strong>.
+            <br /><br />
+
+            Along with development, I also work as a <strong>freelance video editor</strong>,
+            creating social media and promotional content using <strong>DaVinci Resolve</strong>
+            and <strong>CapCut</strong>. I have also completed <strong>AI/ML project</strong>-based learning and built
+            a machine learning project, <strong>House Price Prediction Model</strong>, using
+            <strong>Python</strong>, <strong>Pandas</strong>, <strong>NumPy</strong>, and
+            <strong>Scikit-learn</strong>.
+            <br /><br />
+
+            I enjoy solving real problems, improving user experience, and creating
+            <strong>clean, functional, and impactful digital solutions</strong>.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Skills</h1>
+
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Full Stack Development</h2>
+
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>React.js</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>Node.js</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>Express.js</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>MongoDB</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>REST APIs</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div class="details-container">
+          <h2 class="experience-sub-title">Tools, ML & Creative</h2>
+
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>Socket.io</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>WebSockets</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>Pandas / NumPy</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>Scikit-learn</h3>
+                <p>Project Experience</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>Git & GitHub</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>Postman</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>DaVinci Resolve</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>CapCut</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+
+            <article>
+              <img src="./assets/checkmark.png" alt="Skill icon" class="icon" />
+              <div>
+                <h3>MS Excel VBA</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-1.png" alt="Real-Time Chat Application" class="project-img" />
+          </div>
+
+          <h2 class="experience-sub-title project-title">Real-Time Chat Application</h2>
+
+          <p>
+            Team lead project built using React.js, Node.js, Express.js, Socket.io, and MongoDB.
+            It includes WebSocket-based instant messaging, online user tracking, typing indicators,
+            and real-time message updates.
+          </p>
+
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/amanojha965/Real-Time-Chat-Application-Socket.io-Integration-/tree/Aman-dev', '_blank')">
+              GitHub
+            </button>
+
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://chat-app-gxsl.onrender.com/login'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-2.png" alt="Expense Tracker" class="project-img" />
+          </div>
+
+          <h2 class="experience-sub-title project-title">Expense Tracker</h2>
+
+          <p>
+            Full-stack expense tracking application with CRUD operations, real-time data management,
+            and a clean interface to record, manage, and track expenses digitally.
+          </p>
+
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/amanojha965/expense_tracker', '_blank')">
+              GitHub
+            </button>
+
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://expense-tracker-ahhl.onrender.com/auth/login'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/project-3.png" alt="House Price Prediction Model" class="project-img" />
+          </div>
+
+          <h2 class="experience-sub-title project-title">House Price Prediction Model</h2>
+
+          <p>
+            Machine learning regression project built with Python, Pandas, NumPy, and Scikit-learn
+            to predict house prices based on property features and data-driven prediction techniques.
+          </p>
+
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="window.open('https://github.com/amanojha965', '_blank')">
+              GitHub
+            </button>
+
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#'">
+              View Project
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#leadership'" />
+  </section>
+
+  <section id="leadership">
+    <p class="section__text__p1">Leadership & Work</p>
+    <h1 class="title">Experience</h1>
+
+    <div class="experience-details-container">
+      <div class="about-containers">
+
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title">Freelance Web Developer</h2>
+          <p>
+            2024 – Present<br /><br />
+            Developed and deployed responsive business portfolio websites using HTML5, CSS3,
+            JavaScript, and Bootstrap.
+          </p>
+        </div>
+
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title">Freelance Video Editor</h2>
+          <p>
+            2022 – Present<br /><br />
+            Edited client projects using DaVinci Resolve and CapCut for social media and
+            promotional content.
+          </p>
+        </div>
+
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title">Video Head — MediaScoop Club</h2>
+          <p>
+            GLA University<br /><br />
+            Managed video production, team coordination, and content delivery for club events
+            and campus media.
+          </p>
+        </div>
+
+        <div class="details-container color-container">
+          <h2 class="experience-sub-title">Operations Assistant</h2>
+          <p>
+            Jun 2023 – Dec 2023<br /><br />
+            Processed tender documents and automated billing workflows using Excel VBA macros.
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p>
+          <a href="mailto:amanojha965@gmail.com">amanojha965@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p>
+          <a href="https://www.linkedin.com/in/aman-ojha-39688b253" target="_blank" rel="noopener noreferrer">
+            LinkedIn
+          </a>
+        </p>
+      </div>
+
+      <div class="contact-info-container">
+        <img src="./assets/github.png" alt="GitHub icon" class="icon contact-icon" />
+        <p>
+          <a href="https://github.com/amanojha965" target="_blank" rel="noopener noreferrer">
+            GitHub
+          </a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#leadership">Leadership</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <p>Copyright &#169; 2026 Aman Ojha. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
